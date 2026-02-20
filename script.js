@@ -43,14 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const desktopBtn = document.getElementById("desktop-btn");
   const desktopMenu = document.getElementById("desktop-menu");
 
-  if (downloadBtn) {
-    downloadBtn.addEventListener("click", () => {
-      alert(
-        "Download for Android coming soon! musictunel will be available on the Play Store shortly.",
-      );
-    });
-  }
-
   if (desktopBtn) {
     desktopBtn.addEventListener("click", (e) => {
       e.stopPropagation();
