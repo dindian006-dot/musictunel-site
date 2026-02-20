@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="musictunel - Modern Music Streaming App. Ad-free music playback, offline downloads, synced lyrics, and personalized playlists. Available on Android and Desktop."
+    />
+    <title>musictunel - Modern Music Streaming App UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <header class="main-header">
+      <div class="header-container">
+        <div class="header-logo">
+          <img src="logo.png" alt="musictunel Logo" class="nav-logo">
+          <span>musictunel</span>
+        </div>
+        <nav class="nav-menu">
+          <a href="#home" class="nav-link">
+            <span class="lang-en">Home</span>
+            <span class="lang-id">Beranda</span>
+          </a>
+          <a href="about.html" class="nav-link">
+            <span class="lang-en">About Us</span>
+            <span class="lang-id">Tentang Kami</span>
+          </a>
+          <a href="apps.html" class="nav-link">
+            <span class="lang-en">Our Apps</span>
+            <span class="lang-id">Aplikasi Kami</span>
+          </a>
+        </nav>
+        <div class="header-actions">
+          <button class="lang-toggle" id="lang-toggle" aria-label="Switch Language">
+            <span class="lang-en">ID</span>
+            <span class="lang-id">EN</span>
+          </button>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <div class="hero-text">
+                <img src="logo.png" alt="musictunel Logo" class="brand-logo fade-in">
+                <h1 class="hero-title">musictunel</h1>
+                <p class="hero-subtitle">
+                    <span class="lang-en">Your Music, Your Vibe. Ad-free, Offline, and Stunning. No sign up, no sign in required.</span>
+                    <span class="lang-id">Musik Anda, Vibe Anda. Bebas Iklan, Offline, dan Menakjubkan. Tanpa daftar, tanpa login.</span>
+                </p>
+                <div class="hero-cta">
+                    <a href="#features" class="btn primary">
+                        <span class="lang-en">Discover Features</span>
+                        <span class="lang-id">Jelajahi Fitur</span>
+                    </a>
+                    <a href="#download" class="btn secondary">
+                        <span class="lang-en">Get the App</span>
+                        <span class="lang-id">Unduh Aplikasi</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Screen Section -->
+    <section class="screen-section">
+      <div class="section-content">
+        <div class="phone-mockup home-screen slide-in-left">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <img src="home.png" alt="musictunel Home Screen" class="splash-image">
+                    </div>
+          </div>
+        </div>
+        <div class="feature-description">
+          <h2>
+            <span class="lang-en">Home Screen</span>
+            <span class="lang-id">Layar Beranda</span>
+          </h2>
+          <p>
+            <span class="lang-en">musictunel streams ad-free music through elegant design. Browse your personalized feed with curated playlists, trending tracks, and discover new music tailored to your taste. The app analyzes your listening habits to create custom recommendations that sync seamlessly with your music library.</span>
+            <span class="lang-id">musictunel memutar musik tanpa iklan melalui desain yang elegan. Jelajahi feed yang dipersonalisasi dengan daftar putar kurasi, lagu populer, dan temukan musik baru yang disesuaikan dengan selera Anda. Aplikasi menganalisis kebiasaan mendengarkan Anda untuk membuat rekomendasi khusus yang sinkron mulus dengan perpustakaan musik Anda.</span>
+          </p>
+          <ul class="feature-list">
+            <li>
+                <span class="lang-en">✨ Personalized music recommendations</span>
+                <span class="lang-id">✨ Rekomendasi musik yang dipersonalisasi</span>
+            </li>
+            <li>
+                <span class="lang-en">🎵 Browse charts, moods, and genres</span>
+                <span class="lang-id">🎵 Jelajahi tangga lagu, suasana hati, dan genre</span>
+            </li>
+            <li>
+                <span class="lang-en">🔥 Trending and featured content</span>
+                <span class="lang-id">🔥 Konten populer dan unggulan</span>
+            </li>
+            <li>
+                <span class="lang-en">📱 Clean, intuitive interface</span>
+                <span class="lang-id">📱 Antarmuka yang bersih dan intuitif</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Now Playing Section -->
+    <section class="screen-section">
+      <div class="section-content">
+            <div class="feature-description">
+                <h2>
+                    <span class="lang-en">Now Playing Screen</span>
+                    <span class="lang-id">Layar Sedang Diputar</span>
+                </h2>
+                <p>
+                    <span class="lang-en">Immerse yourself in music with full-screen album artwork and intuitive playback controls. musictunel supports synced lyrics from multiple sources (Musixmatch, LRCLIB, Spotify) and high-quality video playback up to 1080p. Features like SponsorBlock integration protect your listening experience.</span>
+                    <span class="lang-id">Hanyutkan diri Anda dalam musik dengan sampul album layar penuh dan kontrol pemutaran yang intuitif. musictunel mendukung lirik yang disinkronkan dari berbagai sumber (Musixmatch, LRCLIB, Spotify) dan pemutaran video berkualitas tinggi hingga 1080p. Fitur seperti integrasi SponsorBlock melindungi pengalaman mendengarkan Anda.</span>
+                </p>
+                <ul class="feature-list">
+                    <li>
+                        <span class="lang-en">🎬 Video playback up to 1080p</span>
+                        <span class="lang-id">🎬 Pemutaran video hingga 1080p</span>
+                    </li>
+                    <li>
+                        <span class="lang-en">🎤 Synced lyrics (Musixmatch, LRCLIB, etc.)</span>
+                        <span class="lang-id">🎤 Lirik yang disinkronkan (Musixmatch, LRCLIB, dll.)</span>
+                    </li>
+                    <li>
+                        <span class="lang-en">⏯️ YouTube Music backend integration</span>
+                        <span class="lang-id">⏯️ Integrasi backend YouTube Music</span>
+                    </li>
+                    <li>
+                        <span class="lang-en">🎨 SponsorBlock segment skipping</span>
+                        <span class="lang-id">🎨 Melewati segmen SponsorBlock</span>
+                    </li>
+                </ul>
+            </div>
+        <div class="phone-mockup nowplaying-screen slide-in-right">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="play.png" alt="musictunel Now Playing" class="app-screenshot">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Screen Section -->
+    <section class="screen-section">
+      <div class="section-content">
+        <div class="phone-mockup search-screen slide-in-left">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="pencarian.png" alt="musictunel Search" class="app-screenshot">
+            </div>
+          </div>
+        </div>
+        <div class="feature-description">
+          <h2>
+            <span class="lang-en">Search Screen</span>
+            <span class="lang-id">Layar Pencarian</span>
+          </h2>
+          <p>
+            <span class="lang-en">Find your favorite music instantly with musictunel's powerful search engine. Explore a vast library of songs, artists, and albums. Our smart search suggests results as you type, making it easier than ever to discover new tracks or revisit old favorites.</span>
+            <span class="lang-id">Temukan musik favorit Anda secara instan dengan mesin pencari musictunel yang kuat. Jelajahi perpustakaan lagu, artis, dan album yang luas. Pencarian cerdas kami menyarankan hasil saat Anda mengetik, membuatnya lebih mudah dari sebelumnya untuk menemukan lagu baru atau mengunjungi kembali lagu favorit lama.</span>
+          </p>
+          <ul class="feature-list">
+            <li>
+                <span class="lang-en">🔍 Instant search suggestions</span>
+                <span class="lang-id">🔍 Saran pencarian instan</span>
+            </li>
+            <li>
+                <span class="lang-en">🌍 Explore global music charts</span>
+                <span class="lang-id">🌍 Jelajahi tangga lagu musik global</span>
+            </li>
+            <li>
+                <span class="lang-en">🏷️ Search by genre, mood, or era</span>
+                <span class="lang-id">🏷️ Cari berdasarkan genre, suasana hati, atau era</span>
+            </li>
+            <li>
+                <span class="lang-en">🎙️ Voice search integration</span>
+                <span class="lang-id">🎙️ Integrasi pencarian suara</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Library Screen Section -->
+    <section class="screen-section">
+      <div class="section-content">
+        <div class="feature-description">
+          <h2>
+            <span class="lang-en">Library Screen</span>
+            <span class="lang-id">Layar Perpustakaan</span>
+          </h2>
+          <p>
+            <span class="lang-en">Organize and access your favorite songs, albums, and artists effortlessly. musictunel supports local caching and offline downloads, allowing you to enjoy your music anywhere. Smart AI song suggestions help keep your library fresh and growing.</span>
+            <span class="lang-id">Atur dan akses lagu, album, dan artis favorit Anda dengan mudah. musictunel mendukung caching lokal dan unduhan offline, memungkinkan Anda menikmati musik di mana saja. Saran lagu AI yang cerdas membantu menjaga perpustakaan Anda tetap segar dan berkembang.</span>
+          </p>
+          <ul class="feature-list">
+            <li>
+                <span class="lang-en">💾 Offline downloads and caching</span>
+                <span class="lang-id">💾 Unduhan offline dan caching</span>
+            </li>
+            <li>
+                <span class="lang-en">📂 Sync with YouTube liked music</span>
+                <span class="lang-id">📂 Sinkronisasi dengan musik yang disukai di YouTube</span>
+            </li>
+            <li>
+                <span class="lang-en">🎧 AI-powered song suggestions</span>
+                <span class="lang-id">🎧 Saran lagu bertenaga AI</span>
+            </li>
+            <li>
+                <span class="lang-en">🚗 Android Auto integration</span>
+                <span class="lang-id">🚗 Integrasi Android Auto</span>
+            </li>
+          </ul>
+        </div>
+        <div class="phone-mockup library-screen slide-in-right">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="librari.png" alt="musictunel Library" class="app-screenshot">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Settings Screen Section -->
+    <section class="screen-section">
+      <div class="section-content">
+        <div class="phone-mockup settings-screen slide-in-left">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="seting.png" alt="musictunel Settings" class="app-screenshot">
+            </div>
+          </div>
+        </div>
+        <div class="feature-description">
+          <h2>
+            <span class="lang-en">Settings Screen</span>
+            <span class="lang-id">Layar Pengaturan</span>
+          </h2>
+          <p>
+            <span class="lang-en">Customize musictunel to your heart's content. The settings screen provides deep customization options, from UI themes and language preferences to advanced audio configurations and battery optimization settings. Take full control of your music streaming experience.</span>
+            <span class="lang-id">Sesuaikan musictunel sesuka hati Anda. Layar pengaturan menyediakan opsi kustomisasi yang mendalam, mulai dari tema UI dan preferensi bahasa hingga konfigurasi audio tingkat lanjut dan pengaturan pengoptimalan baterai. Kendalikan sepenuhnya pengalaman streaming musik Anda.</span>
+          </p>
+          <ul class="feature-list">
+            <li>
+                <span class="lang-en">🎨 Personalized themes & accent colors</span>
+                <span class="lang-id">🎨 Tema & warna aksen yang dipersonalisasi</span>
+            </li>
+            <li>
+                <span class="lang-en">🔊 Audio quality & buffer settings</span>
+                <span class="lang-id">🔊 Kualitas audio & pengaturan buffer</span>
+            </li>
+            <li>
+                <span class="lang-en">🌐 Multi-language support (including Sasak)</span>
+                <span class="lang-id">🌐 Dukungan multibahasa (termasuk Bahasa Sasak)</span>
+            </li>
+            <li>
+                <span class="lang-en">🔋 Battery & data saving modes</span>
+                <span class="lang-id">🔋 Mode hemat baterai & data</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+      <div class="features-container">
+        <h2 class="section-heading fade-in">
+            <span class="lang-en">Premium Features</span>
+            <span class="lang-id">Fitur Premium</span>
+        </h2>
+        <div class="features-grid">
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🚫</div>
+            <h3>
+                <span class="lang-en">Ad-Free Experience</span>
+                <span class="lang-id">Pengalaman Tanpa Iklan</span>
+            </h3>
+            <p>
+                <span class="lang-en">Stream music and videos without any interruptions or advertisements. Enjoy pure, uninterrupted music.</span>
+                <span class="lang-id">Streaming musik dan video tanpa interupsi atau iklan. Nikmati musik murni tanpa gangguan.</span>
+            </p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">📱</div>
+            <h3>
+                <span class="lang-en">Cross-Platform</span>
+                <span class="lang-id">Lintas Platform</span>
+            </h3>
+            <p>
+                <span class="lang-en">Available on Android (8.0+), Android Auto, and desktop (Windows, macOS, Linux). Your music everywhere.</span>
+                <span class="lang-id">Tersedia di Android (8.0+), Android Auto, dan desktop (Windows, macOS, Linux). Musik Anda di mana saja.</span>
+            </p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🎯</div>
+            <h3>
+                <span class="lang-en">Smart Recommendations</span>
+                <span class="lang-id">Rekomendasi Cerdas</span>
+            </h3>
+            <p>
+                <span class="lang-en">AI-powered song suggestions based on your listening habits. Discover new music you'll love.</span>
+                <span class="lang-id">Saran lagu bertenaga AI berdasarkan kebiasaan mendengarkan Anda. Temukan musik baru yang akan Anda sukai.</span>
+            </p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">⏱️</div>
+            <h3>
+                <span class="lang-en">Sleep Timer</span>
+                <span class="lang-id">Timer Tidur</span>
+            </h3>
+            <p>
+                <span class="lang-en">Set a timer to automatically stop playback. Perfect for falling asleep to your favorite tunes.</span>
+                <span class="lang-id">Atur timer untuk menghentikan pemutaran secara otomatis. Sempurna untuk tertidur dengan lagu favorit Anda.</span>
+            </p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🔒</div>
+            <h3>
+                <span class="lang-en">Privacy Focused</span>
+                <span class="lang-id">Fokus Privasi</span>
+            </h3>
+            <p>
+                <span class="lang-en">Open-source and privacy-focused. No trackers or third-party data collection in FOSS version.</span>
+                <span class="lang-id">Open-source dan fokus privasi. Tanpa pelacak atau pengumpulan data pihak ketiga dalam versi FOSS.</span>
+            </p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="feature-icon">🎨</div>
+            <h3>
+                <span class="lang-en">Beautiful Design</span>
+                <span class="lang-id">Desain Cantik</span>
+            </h3>
+            <p>
+                <span class="lang-en">Modern, intuitive interface inspired by the best music apps. Smooth animations and premium feel.</span>
+                <span class="lang-id">Antarmuka modern dan intuitif yang terinspirasi oleh aplikasi musik terbaik. Animasi halus dan nuansa premium.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="download">
+      <div class="cta-content fade-in">
+        <h2>
+            <span class="lang-en">Experience Music Like Never Before</span>
+            <span class="lang-id">Rasakan Musik yang Berbeda dari Sebelumnya</span>
+        </h2>
+        <p>
+            <span class="lang-en">Download musictunel today and transform your music streaming experience</span>
+            <span class="lang-id">Unduh musictunel hari ini dan transformasikan pengalaman streaming musik Anda</span>
+        </p>
+        <div class="cta-buttons">
+          <button class="cta-btn primary" id="download-btn">
+            <span class="lang-en">Download for Android</span>
+            <span class="lang-id">Unduh untuk Android</span>
+          </button>
+          <div class="desktop-download-wrapper">
+            <button class="cta-btn secondary" id="desktop-btn">
+              <span class="lang-en">Download for Desktop</span>
+              <span class="lang-id">Unduh untuk Desktop</span>
+            </button>
+            <div class="desktop-menu" id="desktop-menu">
+              <a href="#" class="menu-item"><span class="icon">🪟</span> Windows</a>
+              <a href="#" class="menu-item"><span class="icon">🍎</span> macOS</a>
+              <a href="#" class="menu-item"><span class="icon">🐧</span> Linux</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

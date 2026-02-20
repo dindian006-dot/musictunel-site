@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musictunel - Our Apps</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="apps.css">
+</head>
+<body>
+    <!-- Background Abstract Blobs -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="logo.png" alt="musictunel Logo" class="nav-logo">
+                <span>musictunel</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">
+                    <span class="lang-en">Home</span>
+                    <span class="lang-id">Beranda</span>
+                </a>
+                <a href="about.html" class="nav-link">
+                    <span class="lang-en">About Us</span>
+                    <span class="lang-id">Tentang Kami</span>
+                </a>
+                <a href="apps.html" class="nav-link active">
+                    <span class="lang-en">Our Apps</span>
+                    <span class="lang-id">Aplikasi Kami</span>
+                </a>
+            </nav>
+            <div class="header-actions">
+                <button class="lang-toggle" id="lang-toggle" aria-label="Switch Language">
+                    <span class="lang-en">ID</span>
+                    <span class="lang-id">EN</span>
+                </button>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="apps-main">
+        <section class="apps-hero">
+            <div class="hero-content">
+                <h1 class="title">
+                    <span class="lang-en">Our Applications</span>
+                    <span class="lang-id">Aplikasi Kami</span>
+                </h1>
+                <p class="subtitle">
+                    <span class="lang-en">Discover the power of musictunel across all your devices. Seamless, powerful, and beautiful.</span>
+                    <span class="lang-id">Temukan kekuatan musictunel di semua perangkat Anda. Mulus, kuat, dan indah.</span>
+                </p>
+            </div>
+        </section>
+
+        <section class="apps-grid-section">
+            <div class="container">
+                <div class="apps-grid">
+                    <!-- Android App -->
+                    <div class="app-card fade-in">
+                        <div class="app-visual">
+                            <div class="phone-mockup">
+                                <div class="phone-frame">
+                                    <div class="phone-notch"></div>
+                                    <div class="phone-screen">
+                                        <img src="home.png" alt="musictunel Android" class="app-screenshot">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-details">
+                            <div class="app-badge">Android</div>
+                            <h2>musictunel Mobile</h2>
+                            <p>
+                                <span class="lang-en">The ultimate music experience for your Android device. Ad-free, offline playback, and stunning UI.</span>
+                                <span class="lang-id">Pengalaman musik terbaik untuk perangkat Android Anda. Bebas iklan, pemutaran offline, dan UI yang menakjubkan.</span>
+                            </p>
+                            <div class="app-features">
+                                <ul>
+                                    <li>
+                                        <span class="lang-en">✨ Synced Lyrics</span>
+                                        <span class="lang-id">✨ Lirik yang Disinkronkan</span>
+                                    </li>
+                                    <li>
+                                        <span class="lang-en">📥 Offline Downloads</span>
+                                        <span class="lang-id">📥 Unduhan Offline</span>
+                                    </li>
+                                    <li>
+                                        <span class="lang-en">🎵 SponsorBlock Integration</span>
+                                        <span class="lang-id">🎵 Integrasi SponsorBlock</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn-download">
+                                <span class="lang-en">Download for Android</span>
+                                <span class="lang-id">Unduh untuk Android</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Desktop App -->
+                    <div class="app-card fade-in">
+                        <div class="app-visual">
+                            <div class="desktop-mockup">
+                                <div class="desktop-frame">
+                                    <img src="desktop.png" alt="musictunel Desktop" class="app-screenshot">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-details">
+                            <div class="app-badge">Desktop</div>
+                            <h2>musictunel Desktop</h2>
+                            <p>
+                                <span class="lang-en">Bring your music to your workspace. Available for Windows, macOS, and Linux.</span>
+                                <span class="lang-id">Bawa musik Anda ke ruang kerja Anda. Tersedia untuk Windows, macOS, dan Linux.</span>
+                            </p>
+                            <div class="app-features">
+                                <ul>
+                                    <li>
+                                        <span class="lang-en">🪟 Windows, macOS, Linux Support</span>
+                                        <span class="lang-id">🪟 Dukungan Windows, macOS, Linux</span>
+                                    </li>
+                                    <li>
+                                        <span class="lang-en">⌨️ Global Keybindings</span>
+                                        <span class="lang-id">⌨️ Keybinding Global</span>
+                                    </li>
+                                    <li>
+                                        <span class="lang-en">🎨 Beautiful Desktop UI</span>
+                                        <span class="lang-id">🎨 UI Desktop yang Indah</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="download-dropdown-wrapper">
+                                <button class="btn-download dropdown-trigger">
+                                    <span class="lang-en">Download for Desktop</span>
+                                    <span class="lang-id">Unduh untuk Desktop</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="#"><span class="icon">🪟</span> Windows</a>
+                                    <a href="#"><span class="icon">🍎</span> macOS</a>
+                                    <a href="#"><span class="icon">🐧</span> Linux</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p class="copyright">© 2026 musictunel. <span class="lang-en">All rights reserved.</span><span class="lang-id">Semua hak dilindungi undang-undang.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Specific dropdown logic for apps page
+        const dropdownTrigger = document.querySelector('.dropdown-trigger');
+        const dropdownMenu = document.querySelector('.dropdown-menu');
+        
+        if (dropdownTrigger && dropdownMenu) {
+            dropdownTrigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdownMenu.classList.toggle('active');
+            });
+
+            document.addEventListener('click', () => {
+                dropdownMenu.classList.remove('active');
+            });
+        }
+    </script>
+</body>
+</html>
