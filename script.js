@@ -166,6 +166,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Mobile Menu Toggle
+  const mobileToggle = document.getElementById("mobile-menu-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+
+  if (mobileToggle && navMenu) {
+    mobileToggle.addEventListener("click", () => {
+      mobileToggle.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    });
+
+    // Close menu when clicking a link
+    navMenu.querySelectorAll(".nav-link").forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileToggle.classList.remove("active");
+        navMenu.classList.remove("active");
+      });
+    });
+  }
+
   console.log(
     "🎵 musictunel Music Streaming App - Website Loaded Successfully",
   );
