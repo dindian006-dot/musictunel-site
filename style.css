@@ -354,7 +354,7 @@ html[lang="id"] .lang-en {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px var(--spacing-md) 40px;
+  padding: 40px var(--spacing-md) 40px;
   position: relative;
   overflow: hidden;
 }
@@ -435,8 +435,8 @@ html[lang="id"] .lang-en {
 }
 
 .phone-frame {
-  width: 280px;
-  height: 570px;
+  width: 380px;
+  height: 750px;
   background: #000;
   border-radius: 40px;
   padding: 12px;
@@ -945,7 +945,7 @@ html[lang="id"] .lang-en {
 }
 
 .feature-description h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(3rem, 5vw, 4.5rem);
   font-weight: 800;
   margin-bottom: var(--spacing-md);
   background: linear-gradient(
@@ -959,7 +959,7 @@ html[lang="id"] .lang-en {
 }
 
 .feature-description p {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.8;
   color: var(--text-muted);
   margin-bottom: var(--spacing-md);
@@ -971,7 +971,7 @@ html[lang="id"] .lang-en {
 }
 
 .feature-list li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: var(--spacing-xs) 0;
   color: var(--text-color);
   display: flex;
