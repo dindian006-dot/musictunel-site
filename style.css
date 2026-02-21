@@ -418,10 +418,10 @@ html[lang="id"] .lang-en {
 }
 
 .hero-subtitle {
-  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-size: 1.6rem;
   margin-top: var(--spacing-sm);
   color: var(--text-muted);
-  max-width: 600px;
+  max-width: 800px;
 }
 
 /* ===================================
@@ -960,7 +960,7 @@ html[lang="id"] .lang-en {
 }
 
 .feature-description p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.8;
   color: var(--text-muted);
   margin-bottom: var(--spacing-md);
@@ -972,7 +972,7 @@ html[lang="id"] .lang-en {
 }
 
 .feature-list li {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: var(--spacing-xs) 0;
   color: var(--text-color);
   display: flex;
