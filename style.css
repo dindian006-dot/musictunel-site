@@ -354,7 +354,7 @@ html[lang="id"] .lang-en {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px var(--spacing-md) 40px;
+  padding: 10px var(--spacing-md) 40px;
   position: relative;
   overflow: hidden;
 }
@@ -911,7 +911,7 @@ html[lang="id"] .lang-en {
   justify-content: space-between;
   max-width: 1400px;
   width: 100%;
-  gap: var(--spacing-lg);
+  gap: 8rem;
 }
 
 .section-content.reverse {
