@@ -911,7 +911,7 @@ html[lang="id"] .lang-en {
   justify-content: space-between;
   max-width: 1400px;
   width: 100%;
-  gap: 8rem;
+  gap: 20rem;
 }
 
 .section-content.reverse {
@@ -920,7 +920,8 @@ html[lang="id"] .lang-en {
 
 .feature-description {
   flex: 1;
-  max-width: 500px;
+  max-width: 600px;
+  min-width: 400px;
   opacity: 0;
   transition:
     opacity 1s ease-out,
