@@ -350,11 +350,11 @@ html[lang="id"] .lang-en {
    HERO SECTION
    =================================== */
 .hero {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px var(--spacing-md) var(--spacing-md);
+  padding: 80px var(--spacing-md) 40px;
   position: relative;
   overflow: hidden;
 }
@@ -898,7 +898,7 @@ html[lang="id"] .lang-en {
    SCREEN SECTIONS
    =================================== */
 .screen-section {
-  padding: 80px var(--spacing-md);
+  padding: 40px var(--spacing-md);
   display: flex;
   align-items: center;
   justify-content: center;
