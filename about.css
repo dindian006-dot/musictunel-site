@@ -206,10 +206,9 @@ html[lang="id"] .lang-en { display: none !important; }
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6rem 4rem 2rem;
-    min-height: 70vh;
-    position: sticky; /* Minimalist sticky implementation */
-    top: 0;
+    padding: 6rem 4rem 4rem;
+    min-height: 40vh;
+    position: relative;
     z-index: 1;
     text-align: center;
 }
@@ -303,21 +302,21 @@ html[lang="id"] .lang-en { display: none !important; }
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 1.5rem; /* Reduced from 3rem */
+    margin-bottom: 2rem;
     color: var(--text-color);
-    line-height: 1.4; /* Reduced from 1.6 */
-    max-width: 800px;
+    line-height: 1.4;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .main-description {
     color: var(--text-muted);
-    font-size: 1.05rem;
-    max-width: 1000px;
-    line-height: 1.5; /* Reduced from 1.8 */
+    font-size: 1.4rem;
+    max-width: 1100px;
+    line-height: 1.6;
 }
 
 .main-description p {
@@ -423,12 +422,12 @@ html[lang="id"] .lang-en { display: none !important; }
 }
 
 .profile-circle {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .profile-img {
@@ -457,18 +456,18 @@ html[lang="id"] .lang-en { display: none !important; }
 }
 
 .how-title {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: var(--text-color);
-    margin-bottom: 0.8rem;
-    letter-spacing: -0.3px;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
 }
 
 .how-text {
-    font-size: 0.85rem;
-    line-height: 1.5;
+    font-size: 1.3rem;
+    line-height: 1.6;
     color: var(--text-muted);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .how-divider {
@@ -504,17 +503,17 @@ html[lang="id"] .lang-en { display: none !important; }
 }
 
 .quote-text {
-    font-size: 0.85rem;
+    font-size: 1.2rem;
     font-style: italic;
     color: var(--text-muted);
-    margin-bottom: 0.3rem;
-    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
 }
 
 .quote-author {
     font-weight: 600;
     color: var(--text-color);
-    font-size: 0.75rem;
+    font-size: 1.1rem;
 }
 
 /* Update Footer for seamless transition */
