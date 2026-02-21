@@ -350,11 +350,11 @@ html[lang="id"] .lang-en {
    HERO SECTION
    =================================== */
 .hero {
-  min-height: 60vh;
+  min-height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px var(--spacing-md) 40px;
+  padding: 20px var(--spacing-md) 20px;
   position: relative;
   overflow: hidden;
 }
@@ -435,8 +435,8 @@ html[lang="id"] .lang-en {
 }
 
 .phone-frame {
-  width: 380px;
-  height: 750px;
+  width: 450px;
+  height: 880px;
   background: #000;
   border-radius: 40px;
   padding: 12px;
