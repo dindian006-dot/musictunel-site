@@ -165,7 +165,7 @@ body::before {
 
 .nav-menu {
   display: flex !important;
-  gap: 3.5rem;
+  gap: 5rem;
   align-items: center;
   justify-content: center;
   flex: 1;
@@ -898,7 +898,7 @@ html[lang="id"] .lang-en {
    SCREEN SECTIONS
    =================================== */
 .screen-section {
-  padding: 100px var(--spacing-md);
+  padding: 80px var(--spacing-md);
   display: flex;
   align-items: center;
   justify-content: center;
