@@ -93,12 +93,19 @@
   --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--font-primary);
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
-  overflow-x: hidden;
   min-height: 100vh;
   transition:
     background 0.3s ease,
